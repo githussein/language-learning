@@ -52,7 +52,7 @@ public class Word {
      * @param imageResourceId is the drawable resource ID for the image asset
      * @param soundID is the sound resource ID for the audio asset
      */
-    public Word(String arabicTranslation, String germanTranslation, int imageResourceId, int soundID){
+    Word(String arabicTranslation, String germanTranslation, int imageResourceId, int soundID){
         mArabicTranslation = arabicTranslation;
         mGermanTranslation = germanTranslation;
         mImageResourceId = imageResourceId;
@@ -62,26 +62,26 @@ public class Word {
     /**
      * Get the Arabic translation of the word.
      */
-    public String getArabicTranslation(){
+    String getArabicTranslation(){
         return mArabicTranslation;
     }
 
     /**
      * Get the German translation of the word.
      */
-    public String getDeutschTranslation() {
+    String getDeutschTranslation() {
         return mGermanTranslation;
     }
 
-    public int getImageResourceId() {
+    int getImageResourceId() {
         return mImageResourceId;
     }
 
-    public boolean hasImage() {
+    boolean hasImage() {
         return mImageResourceId != NO_IMAGE_PROVIDED;
     }
 
-    public int getSoundId() {
+    int getSoundId() {
         return mSoundId;
     }
 
