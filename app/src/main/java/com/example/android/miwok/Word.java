@@ -46,7 +46,7 @@ public class Word {
 
     /**
      * Create a new Word object.
-     * I want to try 4 parameters with NumbersActivity Activity only
+     * I want to try 4 parameters with Numbers only
      * @param arabicTranslation is the word in the Arabic language
      * @param germanTranslation is the word in the German language
      * @param imageResourceId is the drawable resource ID for the image asset

@@ -21,7 +21,7 @@ import java.util.Objects;
  */
 public class FamilyFragment extends Fragment {
 
-    // GLOBAL VARIABLES FROM FamilyActivity
+    // GLOBAL VARIABLES
 
     //Create global MediaPlayer object to call it in OnClick() & in Release()
     MediaPlayer mediaPlayer;

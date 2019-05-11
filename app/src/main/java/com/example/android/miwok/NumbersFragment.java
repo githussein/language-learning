@@ -21,7 +21,7 @@ import java.util.Objects;
  */
 public class NumbersFragment extends Fragment {
 
-    // GLOBAL VARIABLES FROM NumbersActivity
+    // GLOBAL VARIABLES
 
     //Create global MediaPlayer object to call it in OnClick() & in Release()
     MediaPlayer mediaPlayer;

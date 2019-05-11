@@ -21,8 +21,7 @@ import java.util.Objects;
  */
 public class ColorsFragment extends Fragment {
 
-    // GLOBAL VARIABLES FROM ColorsActivity
-
+    // GLOBAL VARIABLES
     //Create global MediaPlayer object to call it in OnClick() & in Release()
     MediaPlayer mediaPlayer;
 

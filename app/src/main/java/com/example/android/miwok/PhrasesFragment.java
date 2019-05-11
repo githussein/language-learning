@@ -22,7 +22,7 @@ import java.util.Objects;
  */
 public class PhrasesFragment extends Fragment {
 
-    // GLOBAL VARIABLES FROM PhrasesActivity
+    // GLOBAL VARIABLES
 
     //Create global MediaPlayer object to call it in OnClick() & in Release()
     MediaPlayer mediaPlayer;
